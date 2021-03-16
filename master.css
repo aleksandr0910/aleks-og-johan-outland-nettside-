@@ -4,7 +4,7 @@ body{
 }
 
 #overskrift{
-    padding: 320px;
+    padding: 325px;
     margin:auto;
     font-family: 'Luckiest Guy', cursive;
     text-align:center;
@@ -24,6 +24,10 @@ ul{
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  height: 70px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
    
   
  
@@ -33,6 +37,7 @@ ul{
     font-size: 30pt;
     color:white;
     margin-left: 50px;
+    
 }
 
 li{
@@ -68,6 +73,41 @@ li a{
 }
 
 
+/*Anbefalt */
+
+
+.ads{
+    margin-top:-22px;
+    margin-left:0;
+    text-align:left;
+    background-color:rgb(255, 255, 255);
+    height: auto;
+    font-size:10pt;
+    height:422px;
+    
+}
+
+#onepiece{
+    width:650px;
+    height: 400px;
+    margin-left: -10px;
+}
+
+
+
+
+#salg{
+   
+    width:390px;
+    Height:400px;
+}
+
+#sr{
+   
+    width:350px;
+    height: 400px;
+    margin-left:70px;
+}
 
 
 
@@ -75,6 +115,7 @@ li a{
 .bilder p{
     position: absolute;
     opacity: 0;
+    color:#333;
 }
 
 .bilder:hover p{
@@ -111,59 +152,72 @@ li a{
     display:block;
     Padding:10px;
     text-align:left;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6), rgb(85, 85, 85));
-    height:200px;
+    background-color:rgb(255, 238, 0);
+    height:210px;
     font-size:10pt;
     
 }
 
+
 .colon2{
-    margin-top:10px;
+    margin-top:-22px;
     display:block;
     padding:10px;
     text-align:left;
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6), rgb(255, 255, 255));
-    height:200px;
+    background-color:rgb(64, 13, 145);
+    height:210px;
     font-size:15pt;
+}
+
+#div2{
+    margin-left: 200px;
 }
 
 .colon3{
-    margin-top:10px;
+    margin-top:-22px;
     display:block;
     padding:10px;
     text-align:left;
-    background-color: rgb(255, 255, 255);
-    height:200px;
+    background-color: #333;
+    height:210px;
     font-size:15pt;
 }
 
+#div3{
+    margin-left: 200px;
+}
+
 .colon4{
-    margin-top:10px;
+    margin-top:-22px;
     display:block;
     padding:10px;
     text-align:left;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(50, 76, 83);
+    height:210px;
+    font-size:15pt;
+}
+#div4{
+    margin-left: 200px;
 }
 
-.anchorlink{
-    position: absolute;
-    margin-left:735px;
-    margin-top: -120px; ;
-    font-size: 75px;
-    background-color: rgb(147, 147, 165);
-    border-radius: 5px;
-    box-shadow: 0 10 10px;;
-    text-align: center;
-}
-.anchorlink:hover{
-    border-style:dashed;
+.colon5{
+    margin-top:-22px;
+    display:block;
+    padding:10px;
+    text-align:left;
+    background-color: rgb(114, 202, 226);
+    height:210px;
+    font-size:15pt;
 }
 
+#div5{
+    margin-left:200px;
+}
 /* Manga html*/
 
 .bar{
-    margin-top:30px;
-    display:block;
+   
+    height:200px;
     background-color:rgb(172, 171, 173);
 }
 
@@ -171,6 +225,23 @@ li a{
 img{
     transition: transform 500ms;
 }
+
+.bar2{
+    
+    background-color:rgb(172, 171, 173);
+    height:200px;
+}
+
+.bar3{
+    background-color:rgb(172, 171, 173);
+    height:200px;
+}
+
+.bar4{
+    background-color:rgb(172, 171, 173);
+    height:200px;
+}
+
 
 /*footer*/
 
@@ -191,4 +262,5 @@ footer h1{
 .footomoss{
     margin-left: 20%;
 }
+
 
