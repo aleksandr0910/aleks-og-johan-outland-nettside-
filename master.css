@@ -215,10 +215,15 @@ li a{
 }
 /* Manga html*/
 
+#mangaside{
+    background-color:rgb(255, 255, 255);
+}
+
 .bar{
-   
+    margin-top:30px;
+    margin-left:120px;
     height:200px;
-    background-color:rgb(172, 171, 173);
+    background-color:rgb(255, 255, 255);
 }
 
 
@@ -227,22 +232,84 @@ img{
 }
 
 .bar2{
-    
-    background-color:rgb(172, 171, 173);
-    height:200px;
+    margin-top: 30px;
+    margin-left:120px;
+    background-color:rgba(255, 255, 255, 0.863);
+    height:150px;
 }
 
 .bar3{
-    background-color:rgb(172, 171, 173);
+    margin-top: 50px;;
+    margin-left:120px;
+    background-color:rgb(255, 255, 255);
     height:200px;
 }
 
 .bar4{
-    background-color:rgb(172, 171, 173);
+    margin-left:120px;
+    background-color:rgb(255, 255, 255);
     height:200px;
 }
 
+.recommended{
+    background-color:rgb(255, 255, 255);
+}
+#naruto{
+    
+    margin-left:800px;
+}
 
+#kunder{
+    margin-left:950px;
+   
+}
+
+#meldingommanga{
+    margin-left:970px;
+}
+
+.linje{
+    margin-top:60px;
+    display:block;
+    height:2px;
+    background-color: rgb(0, 0, 0);
+    margin-left:30px;
+    margin-right:30px;
+
+
+}
+#rabatt{
+    float:left;
+    margin-top:-1px;
+    
+}
+
+/*spill spide*/
+
+
+
+#doom{
+    
+    margin-left:800px;
+}
+
+#p{
+    margin-left:950px;
+}
+
+.spill{
+    margin-top: 30px;
+    height: 200px;
+}
+
+.spill3{
+    margin-top:30px;
+    height:200px;
+}
+
+.brettspill{
+    margin-top: 50px;
+}
 /*footer*/
 
 footer {
