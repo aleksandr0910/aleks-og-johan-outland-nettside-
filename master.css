@@ -52,7 +52,11 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
- 
+    
+}
+
+li a:hover{
+    background-color: rgb(214, 214, 214);
 }
 
 ::-webkit-scrollbar{
@@ -284,6 +288,8 @@ img{
     
 }
 
+
+
 /*spill spide*/
 
 
@@ -310,6 +316,19 @@ img{
 .brettspill{
     margin-top: 50px;
 }
+
+
+/*merch*/
+#hoodier{
+    font-size: 20pt;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.merchdiv3{
+    margin-top: 60px;
+}
+
 /*footer*/
 
 footer {
