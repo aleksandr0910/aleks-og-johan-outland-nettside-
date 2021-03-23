@@ -120,12 +120,13 @@ li a:hover{
     position: absolute;
     opacity: 0;
     color:#333;
+    height: 0;
+    width:0;
 }
 
 .bilder:hover p{
-    text-align: right;
     font-size: 10px;
-    position: relative;
+    left:120px;
     opacity: 1;
 }
 
@@ -134,57 +135,54 @@ li a:hover{
 }
 
 .bilder img{
-    display: block;
+    
     width:90px;
     height:120px;
     margin-right:70px;
     float:left;
-    padding-right:10px;
+    
 }
 
 .bilder:hover{
      transform: scale(1.5);
      
-     background-color: brown;
+     background-color: rgb(138, 177, 233);
     float:left;
-    padding:9px;
+    padding: 9px;
+    width:200px;
   
 }
 
 .colon1{
     margin-top:-22px;
-    display:block;
-    Padding:10px;
-    text-align:left;
-    background-color:rgb(255, 255, 255);
+    
+    padding:10px;
+   
+    background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:10pt;
     
 }
 
 
 .colon2{
     margin-top:-22px;
-    display:block;
+    
     padding:10px;
-    text-align:left;
-    background-color:rgb(255, 255, 255);
+   
+    background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:15pt;
 }
 
-#div2{
-    margin-left: 200px;
-}
+
 
 .colon3{
     margin-top:-22px;
-    display:block;
+    
     padding:10px;
-    text-align:left;
+   
     background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:15pt;
+    
 }
 
 #div3{
@@ -193,12 +191,11 @@ li a:hover{
 
 .colon4{
     margin-top:-22px;
-    display:block;
+    
     padding:10px;
-    text-align:left;
+   
     background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:15pt;
 }
 #div4{
     margin-left: 200px;
@@ -206,12 +203,11 @@ li a:hover{
 
 .colon5{
     margin-top:-22px;
-    display:block;
+    
     padding:10px;
-    text-align:left;
+   
     background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:15pt;
 }
 
 #div5{
