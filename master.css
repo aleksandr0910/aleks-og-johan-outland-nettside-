@@ -6,9 +6,9 @@ body{
 #overskrift{
     padding: 325px;
     margin:auto;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: ;
     text-align:center;
-    font-size: 50pt;
+    font-size: 180pt;
     background-image: url("img/magic.jpg") ;
     background-size: cover;
     
@@ -52,7 +52,11 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
- 
+    
+}
+
+li a:hover{
+    background-color: rgb(214, 214, 214);
 }
 
 ::-webkit-scrollbar{
@@ -116,12 +120,13 @@ li a{
     position: absolute;
     opacity: 0;
     color:#333;
+    height: 0;
+    width:0;
 }
 
 .bilder:hover p{
-    text-align: right;
     font-size: 10px;
-    position: relative;
+    left:120px;
     opacity: 1;
 }
 
@@ -130,57 +135,54 @@ li a{
 }
 
 .bilder img{
-    display: block;
+    
     width:90px;
     height:120px;
     margin-right:70px;
     float:left;
-    padding-right:10px;
+    
 }
 
 .bilder:hover{
      transform: scale(1.5);
      
-     background-color: brown;
+     background-color: rgb(138, 177, 233);
     float:left;
-    padding:9px;
+    padding: 9px;
+    width:200px;
   
 }
 
 .colon1{
     margin-top:-22px;
-    display:block;
-    Padding:10px;
-    text-align:left;
-    background-color:rgb(255, 238, 0);
+    
+    padding:10px;
+   
+    background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:10pt;
     
 }
 
 
 .colon2{
     margin-top:-22px;
-    display:block;
+    
     padding:10px;
-    text-align:left;
-    background-color:rgb(64, 13, 145);
+   
+    background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:15pt;
 }
 
-#div2{
-    margin-left: 200px;
-}
+
 
 .colon3{
     margin-top:-22px;
-    display:block;
+    
     padding:10px;
-    text-align:left;
-    background-color: #333;
+   
+    background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:15pt;
+    
 }
 
 #div3{
@@ -189,12 +191,11 @@ li a{
 
 .colon4{
     margin-top:-22px;
-    display:block;
+    
     padding:10px;
-    text-align:left;
-    background-color: rgb(50, 76, 83);
+   
+    background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:15pt;
 }
 #div4{
     margin-left: 200px;
@@ -202,12 +203,11 @@ li a{
 
 .colon5{
     margin-top:-22px;
-    display:block;
+    
     padding:10px;
-    text-align:left;
-    background-color: rgb(114, 202, 226);
+   
+    background-color: rgb(255, 255, 255);
     height:210px;
-    font-size:15pt;
 }
 
 #div5{
@@ -284,6 +284,8 @@ img{
     
 }
 
+
+
 /*spill spide*/
 
 
@@ -310,6 +312,19 @@ img{
 .brettspill{
     margin-top: 50px;
 }
+
+
+/*merch*/
+#hoodier{
+    font-size: 20pt;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.merchdiv3{
+    margin-top: 60px;
+}
+
 /*footer*/
 
 footer {
