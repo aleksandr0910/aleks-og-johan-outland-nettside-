@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar">
+        <ul>
+            <label class="logo"> OUTLAND</label>
+            <li><a href=>Bøker</a></li>
+            <li><a href="manga.html">Manga</a></li>
+            <li><a href="">Tegneserier</a></li>
+            <li><a href="">Spill</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+    </ul>
+</div>
+    <div id="aboutTxt">
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..<br /> 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br />
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .<br />
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..
+        </span>
+    </div>
+    <table id="tableDiv">
+        <th>Kontakt</th>
+        <td>46511812</td>
+        <th>Adresse</th>
+        <td>Holmens Gate 2-4</td>
+        <th>Email</th>
+        <td>outland@official.no</td>
+    </table>
+    <div id="sepLine"></div>
+
+    </div>
+
+<style>
+*{
+    margin: 0;
+}
+
+
+ul{
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+height: 70px;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 0;
+
+
+
+}
+
+.logo{
+font-size: 30pt;
+color:white;
+margin-left: 50px;
+
+}
+
+li{
+float: right;
+}
+
+li a{
+
+
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+
+::-webkit-scrollbar{
+width: 12px;
+}
+
+::-webkit-scrollbar-track{
+box-shadow: inset 0 0 8px grey;
+border-radius: 15px;
+}
+::-webkit-scrollbar-thumb{
+background: black;
+}
+::-webkit-scrollbar-thumb:hover{
+background: rgb(92, 90, 85);
+border-radius: 15px;    
+}
+
+/*------------------------------------------------*/
+
+/*This is where i will be editing the design of only the picture, the title and the description og the manga */
+
+.container{
+    margin: 0;
+}
+
+#aboutTxt{
+    position: relative;
+    display: block;
+    /*background-color: pink;*/
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 25px;
+}
+
+#sepLine{
+    position:absolute;
+    display:inline-block;
+    width: 0.5%;
+    height: 80%;
+    background-color: #000;
+    border-radius: 5px;
+    margin-left: 60%;
+    top: 15%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  font-size: 30px;
+}
+
+#tableDiv{
+    position: absolute;
+    margin-left: 62%;
+    top: 32%;
+    width: 25%;
+    border-color: #fff;
+}
+
+</style>
+    
+</body>
+</html>
