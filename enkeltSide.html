@@ -1,0 +1,166 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<ul>
+        <label class="logo"> OUTLAND</label>
+        <li><a href=>Bøker</a></li>
+        <li><a href="manga.html">Manga</a></li>
+        <li><a href="">Tegneserier</a></li>
+        <li><a href="">Spill</a></li>
+        <li><a href="">""</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+</ul>
+<div id="mangaTitle">
+    <h1>Komi-san can't communicate [Tomohito Oda]|Vol 1.</h1>
+</div>
+<div id="container">
+<div id="mainPicture">
+    <img  src="img/komi.jpg">
+    </div>
+    
+<div id="mangaDesc">
+    <span > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<br>
+         in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><br>
+        <button id="cartBtn"><p id="cartText">Add To Cart</p></button>
+    </div>
+    
+</div>
+
+
+
+<style> 
+/* navbar */
+
+ul{
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+height: 70px;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 0;
+
+
+
+}
+
+.logo{
+font-size: 30pt;
+color:white;
+margin-left: 50px;
+
+}
+
+li{
+float: right;
+}
+
+li a{
+
+
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+
+::-webkit-scrollbar{
+width: 12px;
+}
+
+::-webkit-scrollbar-track{
+box-shadow: inset 0 0 8px grey;
+border-radius: 15px;
+}
+::-webkit-scrollbar-thumb{
+background: black;
+}
+::-webkit-scrollbar-thumb:hover{
+background: rgb(92, 90, 85);
+border-radius: 15px;    
+}
+
+/*------------------------------------------------*/
+
+/*This is where i will be editing the design of only the picture, the title and the description og the manga */
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align:left; 
+    top: 7%;
+    position: relative;
+}
+
+img{
+    max-width: 100%;
+}
+
+#mainPicture{
+    height: auto;
+    max-width: 40%;
+    margin-top: 5%;
+}
+
+#mangaTitle{
+    font-size: 15px;
+    padding-left: 5%;
+    margin-top: 0;
+    position: relative;
+}
+
+#mangaDesc{
+    background-color: red;
+    display: block;
+    text-align:left;
+    font-size: 20px;
+    margin-bottom: 50%;
+    margin-top: 5%;
+}
+
+#cartBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 10%;
+    border-radius: 5px;
+    color: pink;
+    height: 60px;
+    width: 140px;
+    
+}
+
+#cartText{
+    color: blue;
+}
+
+
+
+
+/*---------------------------------------*/
+/*Here will i edit the design of the other relevant items in the website*/
+
+</style>
+
+    
+</body>
+</html>
