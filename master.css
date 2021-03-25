@@ -116,18 +116,21 @@ li a:hover{
 
 
 /* forside */
+
+
 .bilder p{
     position: absolute;
-    opacity: 0;
+   
     color:#333;
     height: 0;
-    width:0;
+    display: none;
 }
 
 .bilder:hover p{
     font-size: 10px;
     left:120px;
-    opacity: 1;
+    
+    display: block;
 }
 
 #allebilder{
@@ -292,7 +295,7 @@ img{
 
 #doom{
     
-    margin-left:800px;
+    margin-left:850px;
 }
 
 #p{
